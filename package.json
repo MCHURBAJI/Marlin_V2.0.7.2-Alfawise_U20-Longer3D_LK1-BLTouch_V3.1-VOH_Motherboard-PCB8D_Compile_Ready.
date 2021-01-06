@@ -1,0 +1,201 @@
+{
+  "name": "auto-build",
+  "displayName": "Auto Build Marlin",
+  "description": "Provides an interface to quickly build and upload Marlin Firmware.",
+  "version": "2.1.27",
+  "publisher": "marlinfirmware",
+  "icon": "icon.png",
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/version-short/marlinfirmware.auto-build.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=marlinfirmware.auto-build",
+      "description": "VS Marketplace"
+    },
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/installs-short/marlinfirmware.auto-build.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=marlinfirmware.auto-build",
+      "description": "installs"
+    },
+    {
+      "url": "https://img.shields.io/github/issues/MarlinFirmware/AutoBuildMarlin.svg",
+      "href": "https://github.com/MarlinFirmware/AutoBuildMarlin/issues",
+      "description": "GitHub issues"
+    }
+  ],
+  "keywords": [
+    "3DPrinting",
+    "PlatformIO",
+    "Embedded",
+    "AVR",
+    "ARM"
+  ],
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarlinFirmware/AutoBuildMarlin"
+  },
+  "homepage": "https://github.com/MarlinFirmware/AutoBuildMarlin/blob/master/README.md",
+  "markdown": "github",
+  "enableProposedApi": true,
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "autoBuildVC",
+          "title": "Auto Build Marlin",
+          "icon": "resources/AB.svg"
+        }
+      ]
+    },
+    "configuration": {
+      "type": "object",
+      "title": "Auto Build Marlin",
+      "properties": {
+        "auto-build.reuseTerminal": {
+          "type": "boolean",
+          "default": true,
+          "description": "Reuse the same Terminal for all commands."
+        }
+      }
+    },
+    "views": {
+      "autoBuildVC": [
+        {
+          "id": "autoBuildView",
+          "name": "Build…"
+        },
+        {
+          "id": "marlinView",
+          "name": "Marlin Info"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.loading%",
+        "when": "!abm.inited"
+      },
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.intro%",
+        "when": "abm.inited && !abm.err.locate"
+      },
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.err.empty%",
+        "when": "abm.inited && workbenchState == empty"
+      },
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.err.folder%",
+        "when": "abm.err.locate && workbenchState == folder"
+      },
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.err.workspace%",
+        "when": "abm.err.locate && workbenchState == workspace"
+      },
+      {
+        "view": "autoBuildView",
+        "contents": "%view.workbench.abm.err.parse%",
+        "when": "abm.err.parse"
+      }
+    ],
+    "commands": [
+      {
+        "command": "abm.build",
+        "title": "Marlin: Build",
+        "icon": {
+          "light": "resources/B48x48_light.svg",
+          "dark": "resources/B48x48_dark.svg"
+        }
+      },
+      {
+        "command": "abm.upload",
+        "title": "Marlin: Upload",
+        "icon": {
+          "light": "resources/U48x48_light.svg",
+          "dark": "resources/U48x48_dark.svg"
+        }
+      },
+      {
+        "command": "abm.traceback",
+        "title": "Marlin: Upload (traceback)",
+        "icon": {
+          "light": "resources/T48x48_light.svg",
+          "dark": "resources/T48x48_dark.svg"
+        }
+      },
+      {
+        "command": "abm.clean",
+        "title": "Marlin: Clean",
+        "icon": {
+          "light": "resources/C48x48_light.svg",
+          "dark": "resources/C48x48_dark.svg"
+        }
+      },
+      {
+        "command": "abm.config",
+        "title": "Marlin: Configure",
+        "icon": {
+          "light": "resources/K48x48_light.svg",
+          "dark": "resources/K48x48_dark.svg"
+        }
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "abm.build",
+          "group": "navigation@1",
+          "when": "abm.inited && view == autoBuildView"
+        },
+        {
+          "command": "abm.upload",
+          "group": "navigation@2",
+          "when": "abm.inited && view == autoBuildView"
+        },
+        {
+          "command": "abm.traceback",
+          "group": "navigation@3",
+          "when": "abm.inited && abm.has_debug && view == autoBuildView"
+        },
+        {
+          "command": "abm.clean",
+          "group": "navigation@4",
+          "when": "abm.inited && !abm.no_clean && view == autoBuildView"
+        },
+        {
+          "command": "abm.config",
+          "group": "navigation@5",
+          "when": "abm.inited && view == autoBuildView || view == marlinView"
+        }
+      ]
+    }
+  },
+  "extensionDependencies": [
+    "platformio.platformio-ide"
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.34.0",
+    "typescript": "^3.5.1",
+    "tslint": "^5.16.0",
+    "@types/node": "^10.14.17",
+    "@types/mocha": "^2.2.42"
+  },
+  "__metadata": {
+    "id": "aeed6cc8-3e27-4932-8212-161d73cdee2d",
+    "publisherId": "cc3dab9c-e91d-467b-9b8e-b3d262181451",
+    "publisherDisplayName": "Marlin Firmware"
+  }
+}
