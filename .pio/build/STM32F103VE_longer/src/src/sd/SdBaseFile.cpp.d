@@ -89,8 +89,8 @@
  Marlin\src\sd\../inc/../core/../core/millis_t.h \
  Marlin\src\sd\../inc/../core/serial.h Marlin\src\sd\SdBaseFile.h \
  Marlin\src\sd\SdFatConfig.h Marlin\src\sd\SdVolume.h \
- Marlin\src\sd\Sd2Card.h Marlin\src\sd\SdInfo.h \
- Marlin\src\sd\SdFatStructs.h Marlin\src\sd\../MarlinCore.h
+ Marlin\src\sd\Sd2Card_sdio.h Marlin\src\sd\SdFatStructs.h \
+ Marlin\src\sd\../MarlinCore.h
 
 Marlin\src\sd\../inc/MarlinConfig.h:
 
@@ -280,9 +280,7 @@ Marlin\src\sd\SdFatConfig.h:
 
 Marlin\src\sd\SdVolume.h:
 
-Marlin\src\sd\Sd2Card.h:
-
-Marlin\src\sd\SdInfo.h:
+Marlin\src\sd\Sd2Card_sdio.h:
 
 Marlin\src\sd\SdFatStructs.h:
 

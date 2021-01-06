@@ -99,8 +99,7 @@
  Marlin\src\gcode\motion\../../sd/SdBaseFile.h \
  Marlin\src\gcode\motion\../../sd/SdFatConfig.h \
  Marlin\src\gcode\motion\../../sd/SdVolume.h \
- Marlin\src\gcode\motion\../../sd/Sd2Card.h \
- Marlin\src\gcode\motion\../../sd/SdInfo.h \
+ Marlin\src\gcode\motion\../../sd/Sd2Card_sdio.h \
  Marlin\src\gcode\motion\../../sd/SdFatStructs.h
 
 Marlin\src\gcode\motion\../gcode.h:
@@ -303,8 +302,6 @@ Marlin\src\gcode\motion\../../sd/SdFatConfig.h:
 
 Marlin\src\gcode\motion\../../sd/SdVolume.h:
 
-Marlin\src\gcode\motion\../../sd/Sd2Card.h:
-
-Marlin\src\gcode\motion\../../sd/SdInfo.h:
+Marlin\src\gcode\motion\../../sd/Sd2Card_sdio.h:
 
 Marlin\src\gcode\motion\../../sd/SdFatStructs.h:

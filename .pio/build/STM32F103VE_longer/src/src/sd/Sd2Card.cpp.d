@@ -87,9 +87,7 @@
  Marlin\src\sd\../inc/../core/../lcd/language/language_en.h \
  Marlin\src\sd\../inc/../core/utility.h \
  Marlin\src\sd\../inc/../core/../core/millis_t.h \
- Marlin\src\sd\../inc/../core/serial.h Marlin\src\sd\Sd2Card.h \
- Marlin\src\sd\SdFatConfig.h Marlin\src\sd\SdInfo.h \
- Marlin\src\sd\../MarlinCore.h
+ Marlin\src\sd\../inc/../core/serial.h
 
 Marlin\src\sd\../inc/MarlinConfig.h:
 
@@ -272,11 +270,3 @@ Marlin\src\sd\../inc/../core/utility.h:
 Marlin\src\sd\../inc/../core/../core/millis_t.h:
 
 Marlin\src\sd\../inc/../core/serial.h:
-
-Marlin\src\sd\Sd2Card.h:
-
-Marlin\src\sd\SdFatConfig.h:
-
-Marlin\src\sd\SdInfo.h:
-
-Marlin\src\sd\../MarlinCore.h:

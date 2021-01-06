@@ -110,8 +110,7 @@
  Marlin\src\gcode\calibrate\../../lcd/../sd/SdBaseFile.h \
  Marlin\src\gcode\calibrate\../../lcd/../sd/SdFatConfig.h \
  Marlin\src\gcode\calibrate\../../lcd/../sd/SdVolume.h \
- Marlin\src\gcode\calibrate\../../lcd/../sd/Sd2Card.h \
- Marlin\src\gcode\calibrate\../../lcd/../sd/SdInfo.h \
+ Marlin\src\gcode\calibrate\../../lcd/../sd/Sd2Card_sdio.h \
  Marlin\src\gcode\calibrate\../../lcd/../sd/SdFatStructs.h \
  Marlin\src\gcode\calibrate\../../lcd/../feature/pause.h \
  Marlin\src\gcode\calibrate\../../lcd/../feature/../libs/nozzle.h \
@@ -343,9 +342,7 @@ Marlin\src\gcode\calibrate\../../lcd/../sd/SdFatConfig.h:
 
 Marlin\src\gcode\calibrate\../../lcd/../sd/SdVolume.h:
 
-Marlin\src\gcode\calibrate\../../lcd/../sd/Sd2Card.h:
-
-Marlin\src\gcode\calibrate\../../lcd/../sd/SdInfo.h:
+Marlin\src\gcode\calibrate\../../lcd/../sd/Sd2Card_sdio.h:
 
 Marlin\src\gcode\calibrate\../../lcd/../sd/SdFatStructs.h:
 

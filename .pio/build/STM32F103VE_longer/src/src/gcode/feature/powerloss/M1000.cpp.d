@@ -99,8 +99,7 @@
  Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdBaseFile.h \
  Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdFatConfig.h \
  Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdVolume.h \
- Marlin\src\gcode\feature\powerloss\../../../feature/../sd/Sd2Card.h \
- Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdInfo.h \
+ Marlin\src\gcode\feature\powerloss\../../../feature/../sd/Sd2Card_sdio.h \
  Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdFatStructs.h \
  Marlin\src\gcode\feature\powerloss\../../../module/motion.h \
  Marlin\src\gcode\feature\powerloss\../../../lcd/ultralcd.h \
@@ -313,9 +312,7 @@ Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdFatConfig.h:
 
 Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdVolume.h:
 
-Marlin\src\gcode\feature\powerloss\../../../feature/../sd/Sd2Card.h:
-
-Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdInfo.h:
+Marlin\src\gcode\feature\powerloss\../../../feature/../sd/Sd2Card_sdio.h:
 
 Marlin\src\gcode\feature\powerloss\../../../feature/../sd/SdFatStructs.h:
 

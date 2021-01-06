@@ -106,8 +106,7 @@
  Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdBaseFile.h \
  Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdFatConfig.h \
  Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdVolume.h \
- Marlin\src\gcode\feature\pause\../../../lcd/../sd/Sd2Card.h \
- Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdInfo.h \
+ Marlin\src\gcode\feature\pause\../../../lcd/../sd/Sd2Card_sdio.h \
  Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdFatStructs.h \
  Marlin\src\gcode\feature\pause\../../../lcd/lcdprint.h \
  Marlin\src\gcode\feature\pause\../../../lcd/fontutils.h \
@@ -328,9 +327,7 @@ Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdFatConfig.h:
 
 Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdVolume.h:
 
-Marlin\src\gcode\feature\pause\../../../lcd/../sd/Sd2Card.h:
-
-Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdInfo.h:
+Marlin\src\gcode\feature\pause\../../../lcd/../sd/Sd2Card_sdio.h:
 
 Marlin\src\gcode\feature\pause\../../../lcd/../sd/SdFatStructs.h:
 

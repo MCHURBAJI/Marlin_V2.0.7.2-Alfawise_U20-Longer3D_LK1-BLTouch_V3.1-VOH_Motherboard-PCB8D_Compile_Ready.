@@ -91,9 +91,9 @@
  Marlin\src\lcd\../inc/../core/serial.h Marlin\src\lcd\ultralcd.h \
  Marlin\src\lcd\../sd/cardreader.h Marlin\src\lcd\../sd/SdFile.h \
  Marlin\src\lcd\../sd/SdBaseFile.h Marlin\src\lcd\../sd/SdFatConfig.h \
- Marlin\src\lcd\../sd/SdVolume.h Marlin\src\lcd\../sd/Sd2Card.h \
- Marlin\src\lcd\../sd/SdInfo.h Marlin\src\lcd\../sd/SdFatStructs.h \
- Marlin\src\lcd\../MarlinCore.h Marlin\src\lcd\../feature/pause.h \
+ Marlin\src\lcd\../sd/SdVolume.h Marlin\src\lcd\../sd/Sd2Card_sdio.h \
+ Marlin\src\lcd\../sd/SdFatStructs.h Marlin\src\lcd\../MarlinCore.h \
+ Marlin\src\lcd\../feature/pause.h \
  Marlin\src\lcd\../feature/../libs/nozzle.h \
  Marlin\src\lcd\../module/motion.h Marlin\src\lcd\lcdprint.h \
  Marlin\src\lcd\fontutils.h Marlin\src\lcd\dogm/u8g_fontutf8.h \
@@ -295,9 +295,7 @@ Marlin\src\lcd\../sd/SdFatConfig.h:
 
 Marlin\src\lcd\../sd/SdVolume.h:
 
-Marlin\src\lcd\../sd/Sd2Card.h:
-
-Marlin\src\lcd\../sd/SdInfo.h:
+Marlin\src\lcd\../sd/Sd2Card_sdio.h:
 
 Marlin\src\lcd\../sd/SdFatStructs.h:
 

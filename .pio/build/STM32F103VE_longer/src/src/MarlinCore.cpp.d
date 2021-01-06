@@ -101,9 +101,8 @@
  Marlin\src\gcode/parser.h Marlin\src\sd/cardreader.h \
  Marlin\src\sd/SdFile.h Marlin\src\sd/SdBaseFile.h \
  Marlin\src\sd/SdFatConfig.h Marlin\src\sd/SdVolume.h \
- Marlin\src\sd/Sd2Card.h Marlin\src\sd/SdInfo.h \
- Marlin\src\sd/SdFatStructs.h Marlin\src\lcd/ultralcd.h \
- Marlin\src\lcd/../feature/pause.h \
+ Marlin\src\sd/Sd2Card_sdio.h Marlin\src\sd/SdFatStructs.h \
+ Marlin\src\lcd/ultralcd.h Marlin\src\lcd/../feature/pause.h \
  Marlin\src\lcd/../feature/../libs/nozzle.h Marlin\src\lcd/lcdprint.h \
  Marlin\src\lcd/fontutils.h Marlin\src\lcd/dogm/u8g_fontutf8.h \
  .pio\libdeps\STM32F103VE_longer\U8glib-HAL\src/U8glib.h \
@@ -353,9 +352,7 @@ Marlin\src\sd/SdFatConfig.h:
 
 Marlin\src\sd/SdVolume.h:
 
-Marlin\src\sd/Sd2Card.h:
-
-Marlin\src\sd/SdInfo.h:
+Marlin\src\sd/Sd2Card_sdio.h:
 
 Marlin\src\sd/SdFatStructs.h:
 

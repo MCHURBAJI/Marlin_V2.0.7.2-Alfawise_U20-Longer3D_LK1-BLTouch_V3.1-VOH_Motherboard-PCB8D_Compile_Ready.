@@ -94,8 +94,8 @@
  Marlin\src\gcode\queue.h Marlin\src\gcode\../module/motion.h \
  Marlin\src\gcode\../sd/cardreader.h Marlin\src\gcode\../sd/SdFile.h \
  Marlin\src\gcode\../sd/SdBaseFile.h Marlin\src\gcode\../sd/SdFatConfig.h \
- Marlin\src\gcode\../sd/SdVolume.h Marlin\src\gcode\../sd/Sd2Card.h \
- Marlin\src\gcode\../sd/SdInfo.h Marlin\src\gcode\../sd/SdFatStructs.h \
+ Marlin\src\gcode\../sd/SdVolume.h Marlin\src\gcode\../sd/Sd2Card_sdio.h \
+ Marlin\src\gcode\../sd/SdFatStructs.h \
  Marlin\src\gcode\../feature/powerloss.h Marlin\src\gcode\../MarlinCore.h
 
 Marlin\src\gcode\gcode.h:
@@ -298,9 +298,7 @@ Marlin\src\gcode\../sd/SdFatConfig.h:
 
 Marlin\src\gcode\../sd/SdVolume.h:
 
-Marlin\src\gcode\../sd/Sd2Card.h:
-
-Marlin\src\gcode\../sd/SdInfo.h:
+Marlin\src\gcode\../sd/Sd2Card_sdio.h:
 
 Marlin\src\gcode\../sd/SdFatStructs.h:
 

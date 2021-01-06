@@ -103,8 +103,7 @@
  Marlin\src\module\../lcd/../sd/SdBaseFile.h \
  Marlin\src\module\../lcd/../sd/SdFatConfig.h \
  Marlin\src\module\../lcd/../sd/SdVolume.h \
- Marlin\src\module\../lcd/../sd/Sd2Card.h \
- Marlin\src\module\../lcd/../sd/SdInfo.h \
+ Marlin\src\module\../lcd/../sd/Sd2Card_sdio.h \
  Marlin\src\module\../lcd/../sd/SdFatStructs.h \
  Marlin\src\module\../lcd/../feature/pause.h \
  Marlin\src\module\../lcd/../feature/../libs/nozzle.h \
@@ -332,9 +331,7 @@ Marlin\src\module\../lcd/../sd/SdFatConfig.h:
 
 Marlin\src\module\../lcd/../sd/SdVolume.h:
 
-Marlin\src\module\../lcd/../sd/Sd2Card.h:
-
-Marlin\src\module\../lcd/../sd/SdInfo.h:
+Marlin\src\module\../lcd/../sd/Sd2Card_sdio.h:
 
 Marlin\src\module\../lcd/../sd/SdFatStructs.h:
 

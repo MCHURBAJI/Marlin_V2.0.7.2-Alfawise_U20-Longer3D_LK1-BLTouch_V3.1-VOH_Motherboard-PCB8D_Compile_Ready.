@@ -100,8 +100,7 @@
  Marlin\src\lcd\touch\../../lcd/../sd/SdBaseFile.h \
  Marlin\src\lcd\touch\../../lcd/../sd/SdFatConfig.h \
  Marlin\src\lcd\touch\../../lcd/../sd/SdVolume.h \
- Marlin\src\lcd\touch\../../lcd/../sd/Sd2Card.h \
- Marlin\src\lcd\touch\../../lcd/../sd/SdInfo.h \
+ Marlin\src\lcd\touch\../../lcd/../sd/Sd2Card_sdio.h \
  Marlin\src\lcd\touch\../../lcd/../sd/SdFatStructs.h \
  Marlin\src\lcd\touch\../../lcd/../MarlinCore.h \
  Marlin\src\lcd\touch\../../lcd/../feature/pause.h \
@@ -314,9 +313,7 @@ Marlin\src\lcd\touch\../../lcd/../sd/SdFatConfig.h:
 
 Marlin\src\lcd\touch\../../lcd/../sd/SdVolume.h:
 
-Marlin\src\lcd\touch\../../lcd/../sd/Sd2Card.h:
-
-Marlin\src\lcd\touch\../../lcd/../sd/SdInfo.h:
+Marlin\src\lcd\touch\../../lcd/../sd/Sd2Card_sdio.h:
 
 Marlin\src\lcd\touch\../../lcd/../sd/SdFatStructs.h:
 

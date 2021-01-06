@@ -106,8 +106,8 @@
  Marlin\src\feature\runout.h Marlin\src\feature\../sd/cardreader.h \
  Marlin\src\feature\../sd/SdFile.h Marlin\src\feature\../sd/SdBaseFile.h \
  Marlin\src\feature\../sd/SdFatConfig.h \
- Marlin\src\feature\../sd/SdVolume.h Marlin\src\feature\../sd/Sd2Card.h \
- Marlin\src\feature\../sd/SdInfo.h \
+ Marlin\src\feature\../sd/SdVolume.h \
+ Marlin\src\feature\../sd/Sd2Card_sdio.h \
  Marlin\src\feature\../sd/SdFatStructs.h Marlin\src\feature\pause.h \
  Marlin\src\feature\../libs/nozzle.h Marlin\src\feature\../lcd/ultralcd.h \
  Marlin\src\feature\../lcd/lcdprint.h \
@@ -340,9 +340,7 @@ Marlin\src\feature\../sd/SdFatConfig.h:
 
 Marlin\src\feature\../sd/SdVolume.h:
 
-Marlin\src\feature\../sd/Sd2Card.h:
-
-Marlin\src\feature\../sd/SdInfo.h:
+Marlin\src\feature\../sd/Sd2Card_sdio.h:
 
 Marlin\src\feature\../sd/SdFatStructs.h:
 

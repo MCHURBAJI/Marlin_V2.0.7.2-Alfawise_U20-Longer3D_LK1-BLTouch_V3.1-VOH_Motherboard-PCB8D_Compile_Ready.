@@ -97,7 +97,7 @@
  Marlin\src\module\../sd/cardreader.h Marlin\src\module\../sd/SdFile.h \
  Marlin\src\module\../sd/SdBaseFile.h \
  Marlin\src\module\../sd/SdFatConfig.h Marlin\src\module\../sd/SdVolume.h \
- Marlin\src\module\../sd/Sd2Card.h Marlin\src\module\../sd/SdInfo.h \
+ Marlin\src\module\../sd/Sd2Card_sdio.h \
  Marlin\src\module\../sd/SdFatStructs.h Marlin\src\module\temperature.h \
  Marlin\src\module\thermistor/thermistors.h \
  Marlin\src\module\thermistor/thermistor_1.h \
@@ -318,9 +318,7 @@ Marlin\src\module\../sd/SdFatConfig.h:
 
 Marlin\src\module\../sd/SdVolume.h:
 
-Marlin\src\module\../sd/Sd2Card.h:
-
-Marlin\src\module\../sd/SdInfo.h:
+Marlin\src\module\../sd/Sd2Card_sdio.h:
 
 Marlin\src\module\../sd/SdFatStructs.h:
 

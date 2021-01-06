@@ -94,8 +94,8 @@
  Marlin\src\feature\../sd/../inc/../core/serial.h \
  Marlin\src\feature\../sd/SdFile.h Marlin\src\feature\../sd/SdBaseFile.h \
  Marlin\src\feature\../sd/SdFatConfig.h \
- Marlin\src\feature\../sd/SdVolume.h Marlin\src\feature\../sd/Sd2Card.h \
- Marlin\src\feature\../sd/SdInfo.h \
+ Marlin\src\feature\../sd/SdVolume.h \
+ Marlin\src\feature\../sd/Sd2Card_sdio.h \
  Marlin\src\feature\../sd/SdFatStructs.h \
  Marlin\src\feature\../module/printcounter.h \
  Marlin\src\feature\../module/../libs/stopwatch.h \
@@ -302,9 +302,7 @@ Marlin\src\feature\../sd/SdFatConfig.h:
 
 Marlin\src\feature\../sd/SdVolume.h:
 
-Marlin\src\feature\../sd/Sd2Card.h:
-
-Marlin\src\feature\../sd/SdInfo.h:
+Marlin\src\feature\../sd/Sd2Card_sdio.h:
 
 Marlin\src\feature\../sd/SdFatStructs.h:
 
