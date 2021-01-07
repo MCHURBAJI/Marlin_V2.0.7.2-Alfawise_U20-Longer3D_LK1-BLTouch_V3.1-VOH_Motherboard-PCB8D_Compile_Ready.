@@ -13,6 +13,16 @@ When installing "Auto Build Marlin" you'll also be prompted to install the [Plat
 - With Marlin open, the "File Explorer" should be firmly rooted in your Marlin Firmware folder:
 
   ![](https://github.com/MarlinFirmware/AutoBuildMarlin/raw/master/img/Activity_bar.png)
+  
+  -THIS IS NECASSERY FOR PlatformIO TO CMOMPILE.
+
+ADD the below Libraries.
+
+mU8glib-HAL@^0.4.3
+SoftwareSerialM@^1.0.0
+teemuatlut/TMCStepper@^0.7.1
+
+Make sure to update your Libraries once done adding the above.
 
 - Click the **Auto Build Marlin** icon ![AutoBuild Icon](https://github.com/MarlinFirmware/AutoBuildMarlin/raw/master/img/AB_icon.png) in the Activities Bar (on the left side of *Visual Studio Code* window) to bring up the **Auto Build Marlin** options bar.
 
