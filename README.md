@@ -16,7 +16,7 @@ When installing "Auto Build Marlin" you'll also be prompted to install the [Plat
   
   -THIS IS NECASSERY FOR PlatformIO TO CMOMPILE.
 
-ADD the below Libraries.
+ADD the below Libraries using PlatformIO :
 
 mU8glib-HAL@^0.4.3.
 
