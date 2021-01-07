@@ -19,8 +19,11 @@ When installing "Auto Build Marlin" you'll also be prompted to install the [Plat
 ADD the below Libraries.
 
 mU8glib-HAL@^0.4.3.
+
 SoftwareSerialM@^1.0.0.
+
 teemuatlut/TMCStepper@^0.7.1.
+
 
 Make sure to update your Libraries once done adding the above.
 
